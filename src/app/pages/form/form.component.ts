@@ -4,7 +4,8 @@ import { UntypedFormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
-  styleUrls: ['./form.component.css']
+  styleUrls: ['./form.component.css'],
+  standalone: false
 })
 export class FormComponent {
   addressForm = this.fb.group({

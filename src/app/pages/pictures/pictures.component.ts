@@ -4,7 +4,8 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-pictures',
   templateUrl: './pictures.component.html',
-  styleUrls: ['./pictures.component.css']
+  styleUrls: ['./pictures.component.css'],
+  standalone: false
 })
 export class PicturesComponent implements OnInit {
 
